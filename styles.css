@@ -12,12 +12,11 @@ body {
 
 			background-image: url('images/HeaderFrog.jpg');
 			background-size: 100%;
-			background-position: center;
+			
 			padding: 20px;
 			height: 400px;
 			text-align: center;
-			position: relative;
-			top:50 px;
+			
 
 		}
 
