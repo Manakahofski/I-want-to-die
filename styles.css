@@ -20,6 +20,13 @@ body {
 
 		}
 
+		header .banner {
+			background-image: url('banner.png')
+			background-size: 300px;
+			background-repeat: no-repeat;
+			display: inline-block;
+			
+		}
 
 		section{
 			background: white;
@@ -53,6 +60,7 @@ body {
 		a:visited{
 			color: black;
 		}
+
 
 
 
