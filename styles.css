@@ -12,20 +12,26 @@ body {
 
 			background-image: url('images/HeaderFrog.jpg');
 			background-size: 100%;
-			
+			background-position: center;
 			padding: 20px;
-			height: 400px;
+			height: 500px;
 			text-align: center;
 
 
 		}
 
-		header .banner{
-			background-color: red;
+		header .banner a{
 			
-			background-size: 300px;
+			background-image: url('images/banner.png');
+			background-size: 150px;
 			background-repeat: no-repeat;
-			display: inline-block;
+			display:flex;
+			width: 150px;
+			height: 150px;
+			text-indent:-9999999px;
+			text-indent: 0 px;
+			position: relative;
+			top: -20px;
 
 		}
 
@@ -48,10 +54,11 @@ body {
 
 		}
 
-		a {
+		header a {
 			font-weight: bolder; 
 			text-decoration: none;
 			color: black;
+			margin-top:40px;
 		}
 
 		a:hover {
