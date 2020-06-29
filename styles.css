@@ -21,7 +21,7 @@ body {
 		}
 
 		header .banner a{
-			
+			background-color: transparent;
 			background-image: url('images/banner1.png');
 			background-size: 150px;
 			background-repeat: no-repeat;
@@ -36,11 +36,24 @@ body {
 		}
 
 		section{
+
 			background: white;
-			color: gray;
+			color: black;
 			padding:20px;
 		}
 
+		section h3{
+			width: 1000px;
+			padding-left: 20px;
+		}
+
+		section img{
+			border-radius: 50%;
+			background size: 100px;
+			display:relative;
+			width: 300px;
+			top: 300px;
+		}
 		ul {
 			margin: 0;
 			padding:0;
@@ -55,14 +68,18 @@ body {
 		}
 
 		header a {
+			opacity:0.8;
+			text-align:left;
 			font-weight: bolder; 
+			font-size: 23px;
 			text-decoration: none;
 			color: black;
 			margin-top:40px;
 		}
 
 		a:hover {
-			text-decoration: underline;
+			opacity:1;
+			
 		}
 
 		a:visited{
@@ -73,7 +90,7 @@ body {
 
 
 		footer{
-			background: black ;
+			background: rgb(55,100,55) ;
 			margin: 0;
 			padding: 20px ;
 			color: gray;
